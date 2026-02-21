@@ -1,0 +1,79 @@
+.pro1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pro2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.project p{
+    line-height: 15px;
+    text-align: center;
+    margin-left: 30vw;
+    font-size: 0.8rem;
+    width: 34vw;
+}
+.pp span{
+    font-weight: 700;
+}
+.projects{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-wrap: wrap;
+}
+.proj {
+  background-color: #515766;
+  border-radius: 15px;
+  width: 21vw;       
+  padding: 20px;
+  color: white; 
+  text-align: center;
+}
+
+.peo-first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 20px;
+  margin-bottom: 15px;
+  width: 90%;
+}
+
+.peo-first img {
+  height: 50px;
+}
+
+.pp {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.p {
+    margin-bottom: 20px;
+  font-size: 0.9rem;
+  width: 90%;
+}
+@media (max-width:500px){
+    .projects{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .proj{
+        width: 85%;
+        margin-bottom: 20px;
+    }
+}

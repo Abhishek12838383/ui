@@ -1,0 +1,25 @@
+.brand{
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.brand p{
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.set1 {
+    margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+
+}
+.set1 img{
+    height: 100px;
+}
+@media (max-width:700px){
+    .set1{
+        margin-left: 15vw;
+    }
+}

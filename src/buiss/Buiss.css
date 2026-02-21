@@ -1,0 +1,36 @@
+.buiss{
+    margin-bottom: 30px;
+    color: white;
+    background-color: #6E53E2;
+}
+
+.buiss p:first-child{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.buiss p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.buiss h5{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.conntbn{
+    display: flex;
+  justify-content: center;
+}
+.conntbn button{
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 99px;
+    color: blue;
+    padding: 15px 10px;
+    border: none;
+}

@@ -1,0 +1,155 @@
+/* ============ CONTACT FORM ============ */
+
+.cf-section {
+  padding: 60px 40px;
+  background: #1f57d6;
+}
+
+.cf-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  color: white;
+}
+
+/* LEFT SIDE */
+
+.cf-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cf-call-box {
+  background: linear-gradient(135deg, #6c8df7, #7e9bff);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.cf-small-text {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.cf-phone {
+  margin: 15px 0;
+  font-size: 28px;
+}
+
+.cf-country {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.cf-review-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cf-review-box img {
+  max-width: 150px;
+}
+
+/* RIGHT SIDE */
+
+.cf-right {
+  flex: 1.5;
+}
+
+.cf-heading {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+
+.cf-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cf-row {
+  display: flex;
+  gap: 20px;
+}
+
+.cf-input,
+.cf-select,
+.cf-textarea {
+  width: 100%;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border: none;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.cf-input::placeholder,
+.cf-textarea::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+.cf-textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.cf-phone-row .cf-select {
+  max-width: 120px;
+}
+
+.cf-btn {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 40px;
+  border: none;
+  font-size: 16px;
+  background: #e6e6e6;
+  color: #1f57d6;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cf-btn:hover {
+  background: white;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+  .cf-container {
+    flex-direction: column;
+  }
+
+  .cf-heading {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cf-section {
+    padding: 30px 20px;
+  }
+
+  .cf-row {
+    flex-direction: column;
+  }
+
+  .cf-phone {
+    font-size: 22px;
+  }
+
+  .cf-heading {
+    font-size: 20px;
+  }
+}

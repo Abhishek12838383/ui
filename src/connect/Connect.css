@@ -1,0 +1,25 @@
+.connect{
+    margin-bottom: 30px;
+    color: white;
+    background-color: #6E53E2;
+}
+
+.connect p{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.conntbn{
+    display: flex;
+  justify-content: center;
+}
+.conntbn button{
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 99px;
+    color: blue;
+    padding: 15px 10px;
+    border: none;
+}

@@ -1,0 +1,39 @@
+.achiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+.box1:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 60%;
+  width: 1px;
+  background-color: #ccc;
+}
+
+.box1 img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .achiv {
+    grid-template-columns: 1fr;
+  }
+
+  .box1::after {
+    display: none;
+  }
+}

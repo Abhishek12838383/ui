@@ -1,0 +1,101 @@
+.package{
+    background-color: #d3d3d3;
+    padding: 20px 7vw;
+    
+}
+.head{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.pack{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.pricing-card {
+  background-color: white;
+  width: 80%;
+  max-width: 400px;
+  padding: 40px 30px;
+  border-radius: 6px;
+}
+.pricing-cards{
+  background-color: white;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 6px;
+}
+.pricing-cardd {
+  background-color: white;
+  width: 80%;
+  max-width: 400px;
+  padding: 40px 30px;
+  border-radius: 6px;
+}
+.rec{
+    background-color: #174bd6;
+    height: 20px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+.price-row{
+    margin-bottom: 20px;
+}
+
+.price-text {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.features li {
+  font-size: 12px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.cta-btn {
+ background-color: #1f5eff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 40px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s ease;
+}
+@media (max-width:1050px){
+    .pack{
+        gap: 20px;
+    }
+}
+@media (max-width:800px){
+    .pack{
+        display: block;
+        padding-left: 10vw;
+    }
+    .pricing-card{
+        margin-bottom: 20px;
+    }
+}

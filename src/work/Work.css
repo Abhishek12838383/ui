@@ -1,0 +1,24 @@
+.work-left h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.work-left p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.work{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    padding: 20px 100px;
+}
+.work-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.work-right img{
+    height: 5vh;
+}

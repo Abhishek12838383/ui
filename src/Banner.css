@@ -1,0 +1,21 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    padding: 5vh 10vw;
+    margin: 20px 50px;
+}
+.banner p{
+    width: 20vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.banner img{
+    height: 70px;
+}
+@media (max-width:700px){
+    .banner{
+        display: none;
+    }
+}
