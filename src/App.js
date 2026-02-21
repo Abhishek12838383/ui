@@ -8,7 +8,7 @@ import Connect from './connect/Connect';
 import Footer from './footer/Footer';
 import Form from './form/Form';
 import Hero from './hero/Hero';
-import Laptop from './laptop/Laptop';
+
 import Nav from './Nav';
 import Package from './packages/Package';
 import Project from './projects/Project';
